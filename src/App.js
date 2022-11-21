@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Ourimpact from "./components/Ourimpact"
@@ -15,6 +16,7 @@ function App() {
     <Services/>
     <Ourimpact/>
     <Ourpartners/>
+    <Footer/>
     </>
     
   )

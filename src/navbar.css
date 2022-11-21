@@ -25,9 +25,11 @@ a {
   height: 16vh;
   background: white;
   
+  
 }
-.nav__brand {
-  text-transform: uppercase;
+.nav__brand img {
+  margin-right: 60rem;
+  
 }
 
 .nav__menu {
