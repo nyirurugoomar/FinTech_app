@@ -13,9 +13,13 @@ export const WhoweAreData =[
     },
 
     {
-        label: "values",
+        label: "Values",
         value: "values",
-        desc: `Customer focus, Integrity, Quality & Excellence.`,
+        desc: `We design an end-to-end digital banking 
+        experience through a complete set of integrated 
+        features which serves as a full-service bank for 
+        customers.`,
+        
         
       },
 

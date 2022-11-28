@@ -3,7 +3,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import SubscriptionsRoundedIcon from '@mui/icons-material/SubscriptionsRounded';
 import Subfooter from './Subfooter'
-import logo from '../assets/Logo.png'
+import logo from '../assets/logoorg.png'
 function Footer() {
   return (
 <>
@@ -11,7 +11,8 @@ function Footer() {
     <div className='grid grid-cols-1 lg:grid-cols-3  gap-x-8 gap-y-16  pt-8 sm:pt-20  '>
       <div className='px-10  py-8   '>
        {/* Logo */}
-       <h1 className='text-orange text-bold'>Powered By:</h1>  
+       <h1 className='text-orange text-bold mb-10'>Powered By:</h1>  
+       {" "}
        <a href="#" className="nav__brand text-white font-serif textbold">
        <img src={logo} alt=""/>
       </a>

@@ -13,7 +13,7 @@ import Zoom from 'react-reveal/Zoom';
 
 function Services() {
   return (
-    <div className='max-w-[1240px] mx-auto text-white mt-40 mb-40'>
+    <div name='services' className='max-w-[1240px] mx-auto text-white mt-40 mb-40'>
           <h1 className='text-center text-orange font-bold text-6xl'>Our Services</h1>
 
           <div className='grid grid-cols-1 lg:grid-cols-3  gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black'>

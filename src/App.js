@@ -1,3 +1,4 @@
+
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
@@ -6,17 +7,22 @@ import Ourpartners from "./components/Ourpartners"
 import Services from "./components/Services"
 import WhoweAre from "./components/WhoweAre"
 
+import { BrowserRouter as Router } from 'react-router-dom';
+
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <Hero/>
-    <WhoweAre/>
-    <Services/>
-    <Ourimpact/>
-    <Ourpartners/>
-    <Footer/>
+<Router>
+      <Navbar />
+      
+      <Hero/>
+      <WhoweAre/>
+      <Services/>
+      <Ourimpact/>
+      <Ourpartners/>
+      <Footer/>
+</Router>      
     </>
     
   )
