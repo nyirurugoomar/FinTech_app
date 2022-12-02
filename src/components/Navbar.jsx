@@ -1,4 +1,5 @@
 import React from 'react'
+
 // import { NavLink } from 'react-router-dom'
 import logo from '../assets/logoorg.png'
 import {
@@ -13,9 +14,9 @@ function Navbar() {
   return (
     <>
     <Nav>
-     
+        <a href='home'>
         <img src={logo} alt="" />
-      
+        </a>
       <Bars/>
       <NavMenu>
         <NavLink to="/home" activeStyle>
@@ -27,12 +28,15 @@ function Navbar() {
         <NavLink to="/about" activeStyle>
           About
         </NavLink> */}
-        <NavLink to="/support" activeStyle>
-        Support Center
+        <NavLink to='/support' activeStyle>
+          
+          Support Center
+         
+        
         </NavLink>
         <NavBtn>
-        <NavBtnLink to="/signin">
-          Sigh In
+        <NavBtnLink to="/login">
+          Login In
         </NavBtnLink>
       </NavBtn>
       </NavMenu>

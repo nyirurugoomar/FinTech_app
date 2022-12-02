@@ -1,27 +1,24 @@
 
-import Footer from "./components/Footer"
-import Hero from "./components/Hero"
-import Navbar from "./components/Navbar"
-import Ourimpact from "./components/Ourimpact"
-import Ourpartners from "./components/Ourpartners"
-import Services from "./components/Services"
-import WhoweAre from "./components/WhoweAre"
 
-import { BrowserRouter as Router } from 'react-router-dom';
-
+import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
+import  Login  from "./components/Login";
+import  Support  from "./components/Support";
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer'
 
 function App() {
   return (
     <>
 <Router>
       <Navbar />
-      
-      <Hero/>
-      <WhoweAre/>
-      <Services/>
-      <Ourimpact/>
-      <Ourpartners/>
-      <Footer/>
+     <Switch>
+        <Route exact path='/' component={Home}/>
+        <Route  path='/home' component={Home}/>
+        <Route path='/support' component={Support}/>
+        <Route path='/login' component={Login}/>
+     </Switch> 
+     <Footer/>
 </Router>      
     </>
     

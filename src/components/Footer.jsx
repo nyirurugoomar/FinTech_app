@@ -13,18 +13,18 @@ function Footer() {
        {/* Logo */}
        <h1 className='text-orange text-bold mb-10'>Powered By:</h1>  
        {" "}
-       <a href="#" className="nav__brand text-white font-serif textbold">
+       <a href="home" className="nav__brand text-white font-serif textbold">
        <img src={logo} alt=""/>
       </a>
        </div>
        <div className='px-20  py-8  '>
        {/* Quick link */}
        <h1 className='text-orange text-bold'>QUICK LINK</h1>
-        <a href="#" className="nav__link text-white hover:text-orange">
+        <a href="home" className="nav__link text-white hover:text-orange">
                 Home
             </a>
             <br/>
-            <a href="#" className="nav__link text-white hover:text-orange">
+            <a href="support" className="nav__link text-white hover:text-orange">
             Support Center
             </a>
        </div>
