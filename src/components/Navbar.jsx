@@ -1,8 +1,9 @@
 import React from 'react'
 
-// import { NavLink } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import logo from '../assets/logoorg.png'
 import {
+  
   Nav,
   NavLink,
   Bars,
@@ -32,10 +33,10 @@ function Navbar() {
           
           Support Center
          
-        
+
         </NavLink>
         <NavBtn>
-        <NavBtnLink to="/login">
+        <NavBtnLink to="/Login">
           Login In
         </NavBtnLink>
       </NavBtn>

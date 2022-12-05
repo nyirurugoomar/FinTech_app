@@ -7,7 +7,7 @@ import logo from '../assets/logoorg.png'
 function Footer() {
   return (
 <>
-    <div className='max-w-[1240px] mx-auto mt-10  bg-black_light  '>
+    <div className=' mx-auto   bg-black_light   '>
     <div className='grid grid-cols-1 lg:grid-cols-3  gap-x-8 gap-y-16  pt-8 sm:pt-20  '>
       <div className='px-10  py-8   '>
        {/* Logo */}

@@ -1,11 +1,12 @@
 
-
-import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router,Route, NavLink} from 'react-router-dom';
 import  Login  from "./components/Login";
 import  Support  from "./components/Support";
 import Home from './components/Home';
-import Navbar from './components/Navbar';
 import Footer from './components/Footer'
+import { Switch } from 'react-router-dom';
+
 
 function App() {
   return (
@@ -14,9 +15,12 @@ function App() {
       <Navbar />
      <Switch>
         <Route exact path='/' component={Home}/>
-        <Route  path='/home' component={Home}/>
+        <Route path='/home' component={Home}/>
         <Route path='/support' component={Support}/>
-        <Route path='/login' component={Login}/>
+        <Route path='/login'>
+          <Login/>
+         </Route>
+
      </Switch> 
      <Footer/>
 </Router>      

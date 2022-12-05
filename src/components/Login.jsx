@@ -23,7 +23,7 @@ function Login() {
                 <button className='rounded-lg w-full my-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white bg-black hover:bg-orange font-bold'>Sign In</button>
                 <div className='flex justify-between'>
                     <p className='flex items-center'><input className='mr-2' type="checkbox" /> Remember Me</p>
-                    <p>Create an account</p>
+                    
                 </div>
             </form>
         </div>
