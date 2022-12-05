@@ -30,11 +30,9 @@ function Navbar() {
           About
         </NavLink> */}
         <NavLink to='/support' activeStyle>
-          
           Support Center
-         
-
         </NavLink>
+        
         <NavBtn>
         <NavBtnLink to="/Login">
           Login In
